@@ -29,3 +29,55 @@ img {
   display: block;
   width: 100%;
 }
+
+.title {
+    background-color: #ccc;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+    
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top-bar {
+    background-color: #ccc;
+}
+
+.nav a{
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: #0074D9;
+}
+
+@media only screen and (min-width: 30em) {
+    
+    .nav {
+        text-align: center;
+    }
+    .nav li {
+        display: inline-block; 
+}
+
+@media only screen and (min-width: 80em) {
+    
+    .nav {
+        float: left;
+        overflow: hidden;
+    }
+    
+    h1 {
+        float: left;
+        margin: 0;
+    }
+    
+   .top-bar{
+       overflow: hidden;
+    }
+}
+
+    
