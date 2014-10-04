@@ -36,7 +36,13 @@ img {
     margin: 0;
     text-align: center;
 }
-    
+   
+.intro {
+    background-color: #e2e2e2;
+    overflow: hidden;
+    text-align: center;
+}
+
 .nav {
     margin: 0;
     padding: 0;
@@ -47,23 +53,9 @@ img {
     background-color: #ccc;
 }
 
-.nav a{
-    display: block;
-    padding: 0;
+.nav a {
     text-decoration: none;
     color: #0074D9;
-}
-
-h2 {
-    margin: 0;
-}
-
-.grid {
-    overflow: hidden;
-}
-
-.unit {
-    float: left;
 }
 
 @media only screen and (min-width: 30em) {
@@ -73,10 +65,11 @@ h2 {
     }
     .nav li {
         display: inline-block;
+        padding-top: 1.5em;
     }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 80em) {
     
     .nav {
         float: left;
@@ -92,5 +85,3 @@ h2 {
        overflow: hidden;
     }
 }
-
-    
