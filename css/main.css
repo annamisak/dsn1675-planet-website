@@ -66,14 +66,6 @@ h2 {
     float: left;
 }
 
-.unit-s-1 {
-    width: 100%;
-}
-
-.unit-s-1-2 {
-    width: 50%;
-}
-
 @media only screen and (min-width: 30em) {
     
     .nav {
