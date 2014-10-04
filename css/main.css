@@ -54,6 +54,26 @@ img {
     color: #0074D9;
 }
 
+h2 {
+    margin: 0;
+}
+
+.grid {
+    overflow: hidden;
+}
+
+.unit {
+    float: left;
+}
+
+.unit-s-1 {
+    width: 100%;
+}
+
+.unit-s-1-2 {
+    width: 50%;
+}
+
 @media only screen and (min-width: 30em) {
     
     .nav {
@@ -64,7 +84,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 50em) {
     
     .nav {
         float: left;
