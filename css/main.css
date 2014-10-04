@@ -58,7 +58,7 @@ img {
     color: #0074D9;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 25em) {
     
     .nav {
         text-align: center;
@@ -69,7 +69,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 40em) {
     
     .nav {
         float: left;
