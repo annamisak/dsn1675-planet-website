@@ -25,7 +25,7 @@ body {
   padding: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
@@ -99,5 +99,11 @@ img {
   .nav {
     float: center;
   }
-
+    
+  .nav-bottom {
+    float: center;
+  }
+  .copyright {
+    float: left;
+  }
 }
