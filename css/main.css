@@ -43,6 +43,11 @@ img {
     text-align: center;
 }
 
+.masthead {
+  overflow: hidden;
+  background-color: #ccc;
+}
+
 .nav {
     margin: 0;
     padding: 0;
@@ -63,29 +68,25 @@ img {
 }
 
 @media only screen and (min-width: 25em) {
-    
-    .nav {
-        text-align: center;
-    }
-    .nav li {
-        display: inline-block;
-        padding-top: 1.5em;
-    }
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
 }
 
-@media only screen and (min-width: 40em) {
-    
-    .nav {
-        float: left;
-        overflow: hidden;
-    }
-    
-    h1 {
-        float: left;
-        margin: 0;
-    }
-    
-   .top-bar{
-       overflow: hidden;
-    }
+@media only screen and (min-width: 38em) {
+
+  .title {
+    float: left;
+  }
+
+  .nav {
+    float: left;
+  }
+
 }
