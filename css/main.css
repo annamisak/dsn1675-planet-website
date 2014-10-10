@@ -49,6 +49,10 @@ img {
     list-style-type: none;
 }
 
+.nav-bottom {
+    list-style-type: none;
+}
+
 .top-bar {
     background-color: #ccc;
 }
