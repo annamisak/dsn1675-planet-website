@@ -16,6 +16,29 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }  
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -112,36 +135,17 @@ body {
     float: left;
   }
     
-  .data dd {
-    float: right;
-  }
-
-  .data dt {
-    float: left;
-    clear: both;
-  }
 }
 
 @media only screen and (min-width: 60em) {
     
-    html {
-        font-size: 110%;
-    }
-    
-}
+      .data dd {
+    float: left;
+  }
 
-@media only screen and (min-width: 90em) {
-    
-    html {
-        font-size: 120%;
-    }
-    
-}
-
-@media only screen and (min-width: 120em) {
-    
-    html {
-        font-size: 130%;
-    }
-    
+  .data dt {
+    float: left;
+    clear: left;
+    width: 12em;
+  }
 }
