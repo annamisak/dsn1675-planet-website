@@ -101,6 +101,10 @@ body {
     overflow: hidden;
 }
 
+.hidden {
+    display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav {
@@ -115,6 +119,10 @@ body {
     text-align: center;
   }
 
+  .hidden {
+    display: inline;
+}
+    
 }
 
 @media only screen and (min-width: 38em) {
