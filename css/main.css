@@ -68,7 +68,7 @@ a:focus {
 .skip-links a {
     position: absolute;
     top: -3em;
-    padding: 0.5em 0.75;
+    padding: 0.5em 0.75em;
     background-color: #000;
     color: #fff;
     font-weight: bold;
@@ -170,7 +170,7 @@ a:focus {
   }
 
   .nav {
-    float: center;
+    text-align: center;
   }
     
   .nav-bottom {
