@@ -74,6 +74,7 @@ a:focus {
     font-weight: bold;
     font-size: 1.25em;
     text-decoration: none;
+    clear: both;
 }
 
 .skip-links a:focus {
