@@ -143,6 +143,28 @@ a:focus {
     display: none;
 }
 
+/* FORMS START*/
+
+.forms {
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+
+label{
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+    padding:  0.5em 0;
+}
+
+/* FORMS END*/
+
 @media only screen and (min-width: 25em) {
 
   .nav {
