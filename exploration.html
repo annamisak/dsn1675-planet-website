@@ -34,25 +34,25 @@
     </div>
     
     <div class="forms island">
-        <h2 class="zetta">Join Jupiter's Exploration Team</h2>
-        <p>Are you interested in exploring Jupiter with a group of extremely talented people? Sign up below!</p>
+        <h2 class="zetta text-center">Join Jupiter's Exploration Team</h2>
+        <p class="text-center">Are you interested in exploring Jupiter with a group of extremely talented people? <span class="italic">Sign up below!</span></p>
         
         <form action="thanks.html" method="post">
     
-            <div>
+            <div class="pad-bottom-half">
                 <label for="name">Name</label>
-                <input id="name">
+                <input class="field" id="name">
             </div>
     
-            <div>
+            <div class="pad-bottom-half">
                 <label for="e-mail">E-mail</label>
                 <input class="field" type="email" id="e-mail">
             </div>
             
-            <div>
+            <div class="pad-bottom-half">
                 <label for="fav">Age</label>
-                <select id="fav">
-                    <option selected></option>
+                <select class="field" id="fav">
+                    <option></option>
                     <option>Tiger</option>
                     <option>Lynx</option>
                     <option>House Cat</option>
@@ -60,7 +60,7 @@
             </div>
             
             <fieldset>
-                <p>Your level of awesomeness:</p>
+                <legend>Your level of awesomeness:</legend>
                 <input type="radio" id="not" name="level">
                 <label for="not">Meh...</label>
                 <input type="radio" id="good" name="level">
@@ -70,11 +70,11 @@
             </fieldset>
             
             <div>
-                <label for="cat-names">Name all your cats:</label>
-                <textarea id="cat-names"></textarea>
+                <label for="deserve">Explain why you deserve to go:</label>
+                <textarea id="deserve"></textarea>
             </div>
             
-            <div>
+            <div class="button">
                 <button type="submit">Sign Up</button>
             </div>
             </form>
