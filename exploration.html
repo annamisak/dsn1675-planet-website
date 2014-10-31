@@ -50,31 +50,34 @@
             </div>
             
             <div class="pad-bottom-half">
-                <label for="fav">Age</label>
-                <select class="field" id="fav">
-                    <option></option>
-                    <option>Tiger</option>
-                    <option>Lynx</option>
-                    <option>House Cat</option>
-                </select>
+                <label for="age">Age</label>
+                <input class="field" type="number" id="age">
+
             </div>
             
             <fieldset>
                 <legend>Your level of awesomeness:</legend>
-                <input type="radio" id="not" name="level">
-                <label for="not">Meh...</label>
-                <input type="radio" id="good" name="level">
-                <label for="good">Pretty good.</label>
-                <input type="radio" id="super" name="level">
-                <label for="super">Super!</label>
+                
+                <span class="radio">
+                    <input type="radio" id="not" name="level">
+                    <label for="not">Meh...</label>
+                </span>
+                <span class="radio">
+                    <input type="radio" id="good" name="level">
+                    <label for="good">Pretty good.</label>
+                </span> 
+                <span class="radio">
+                    <input type="radio" id="super" name="level">
+                    <label for="super">Super!</label>
+                </span>
             </fieldset>
             
             <div>
-                <label for="deserve">Explain why you deserve to go:</label>
+                <label class="italic" for="deserve">Explain why you deserve to go:</label>
                 <textarea id="deserve"></textarea>
             </div>
             
-            <div class="button">
+            <div class="button island">
                 <button type="submit">Sign Up</button>
             </div>
             </form>
