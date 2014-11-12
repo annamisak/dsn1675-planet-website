@@ -40,6 +40,7 @@ h2, .peta {
   line-height: 1.8729;
   font-family: "Slabo 27px", serif;
   color: #3b602c;
+  letter-spacing: -0.015em;
 }
 
 h3, .tera {
