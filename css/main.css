@@ -48,9 +48,18 @@ body {
   padding: 0;
 }
 
-a {
+a,
+a:link, 
+a:visited {
     /*It is okay to get rid of the focus rectangle for mouse users BUT NEVER REMOVE IT FOR KEYBOARD USERS!!!*/
     outline:  none;
+    color: #3b602c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 /* KEYBOARD USE SETTINGS starts*/
@@ -88,23 +97,23 @@ a:focus {
 }
 
 .title {
-    background-color: #ccc;
+    background-color: #3b602c;
     text-align: center;
 }
    
 .intro {
-    background-color: #e2e2e2;
+    background-color: #ecd2a1;
     overflow: hidden;
     text-align: center;
 }
 
 .masthead {
   overflow: hidden;
-  background-color: #ccc;
+  background-color: #3b602c;
 }
 
 .section-dark {
-  background-color: #ccc;
+  background-color: #3b602c;
 }
 
 .nav {
@@ -118,24 +127,41 @@ a:focus {
 }
 
 .top-bar {
-    background-color: #ccc;
+    background-color: #3b602c;
 }
 
-.nav a {
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #fff;
     text-decoration: none;
-    color: #0074D9;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active 
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #ecd2a1;
+    color: #000;
+}
+
+.white {
+    color: #ecd2a1;
 }
 
 .wrapper {
-    background-color: #efefef;
+    background-color: #faf1e1;
 }
 
 .wrapper-type {
-    background-color: #e2e2e2;
+    background-color: #faf1e1;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #3b602c;
     overflow: hidden;
 }
 
@@ -154,7 +180,7 @@ a:focus {
 /* FORMS START*/
 
 .forms {
-    background-color: #e2e2e2;
+    background-color: #faf1e1;
     overflow: hidden;
 }
 
@@ -184,7 +210,7 @@ button {
 }
 
 button:hover {
-    background-image: linear-gradient(to right, lightblue, lightblue);
+    background-image: linear-gradient(to right, #ecd2a1, #ecd2a1);
 }
 
 fieldset {
@@ -203,6 +229,10 @@ fieldset {
 }
 
 /* FORMS END*/
+
+.copyright {
+    color: #ecd2a1;
+}
 
 @media only screen and (min-width: 25em) {
 
